@@ -1,0 +1,58 @@
+{
+  "infosrv": {
+    "nom": "Mychat"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Nadjem",
+      "nickname": "mejdan",
+      "email":"n.medjdoub@gmail.com",
+      "password":"Nadjemilie77",
+      "isLogged":false
+    }
+  ],
+  "public_messages": [
+    {
+      "id": 1,
+      "message": "DEMAT breizhouz",
+      "userId": 1,
+      "date": "2020-08-18T09:42:00",
+      "color": "#FF"
+    },
+    {
+      "id": 2,
+      "message": "DEMAT Grand breizhouz",
+      "userId": 2,
+      "date": "2020-08-18T09:43:00",
+      "color": "GREY"
+    },
+    {
+      "id": 3,
+      "message": "DEMAT Grand breizhouz",
+      "userId": 1,
+      "date": "2020-08-18T09:43:00",
+      "color": "BLUE"
+    },
+    {
+      "message": "degemer mat",
+      "color": "#FFAEBE",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "message": "gfbverdgvs",
+      "color": "#FFAEBE",
+      "userId": 1,
+      "date": "2020-08-18T12:54:50.316Z",
+      "id": 5
+    },
+    {
+      "message": "rbsrtfdsvgserfgvqewgrf",
+      "color": "#FFAEBE",
+      "userId": 1,
+      "date": "2020-08-18T12:54:59.978Z",
+      "id": 6
+    }
+  ]
+}

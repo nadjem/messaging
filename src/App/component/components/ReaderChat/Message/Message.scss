@@ -1,0 +1,51 @@
+.messageLine{
+    width: 100%;
+    
+}
+.message_bulle{
+    min-width: 40%;
+    padding: 2px 5px;
+    &.bluebulle{
+        background-color:#3096e8;
+        -webkit-border-top-right-radius: 15px;
+        -moz-border-top-right-radius: 15px;
+        border-top-right-radius: 15px;
+        -webkit-border-bottom-left-radius: 15px;
+        -moz-border-bottom-left-radius: 15px;
+        border-bottom-left-radius: 15px;  
+        float: right;
+       
+    }
+    &.greybulle{
+        background-color:#c0d3e2;
+        -webkit-border-top-left-radius: 15px;
+        -moz-border-top-left-radius: 15px;
+        border-top-left-radius: 15px;
+        -webkit-border-bottom-right-radius: 15px;
+        -moz-border-bottom-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        float: left;
+        .nameSay{
+            color: rgb(77, 77, 77);
+        }
+    }
+}
+.infobulle{
+    font-size: 10px;
+    color: lightgray;
+    max-width: 30%;
+    &.right{
+        float: right;
+    }
+    &.left{
+        float: left;
+    }
+}
+.nameSay{
+    float: left;
+    font-size: 10px;
+    color: lightgray;
+}
+.rowBulle{
+    margin: 0!important;
+}

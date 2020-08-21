@@ -1,0 +1,19 @@
+li{
+    text-align: left;
+    padding: 5px;
+    border-top:1px solid grey;
+    border-left:none;
+    border-right:none;
+    &:last-child{
+        border-bottom:1px solid grey;
+    }
+    i{
+        margin-right: 10px;
+    }
+}
+
+.clickableUser{
+    &:hover{
+        cursor: pointer;
+    }
+}
